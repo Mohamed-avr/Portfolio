@@ -1,9 +1,16 @@
+
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+/*  Body styling */
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -15,12 +22,15 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+
+
+
+/* -----------  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  ----------  */
+
+/*  styles components */
+
