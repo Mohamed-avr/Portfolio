@@ -5,12 +5,14 @@ import { useRef } from "react";
 const Navbar = () => {
   const LinksRef = useRef();
   const LinkUl = useRef();
+  const btnMenu = useRef();
 
   const HandlingNavMenu = () => {
     // <ul> element
     LinkUl.current.classList.toggle("flex-col");
     LinkUl.current.classList.toggle("space-x-10");
-    LinkUl.current.classList.toggle("space-y-5");
+    LinkUl.current.classList.toggle("space-y-5"); //
+    btnMenu.current.classList.toggle("rotate-90");
     // parrent of <ul> element
     LinksRef.current.classList.toggle("hidden");
     LinksRef.current.classList.toggle("mt-10");
@@ -21,12 +23,13 @@ const Navbar = () => {
 
   return (
     <>
-      <div className=" z-10 top-0 fixed flex justify-between sm:px-24 px-5 py-4 items-center align-middle text-texts  sm:flex-flow  bg-nav/80 w-full ">
+      <div className=" z-10 top-0 fixed flex justify-between sm:px-24 px-5 py-4 items-center align-middle text-texts  sm:flex-flow  bg-nav/70 w-full ">
         <div className="flex justify-between sm:w-2/4 w-full  ">
-          <div className=""> <Image src="/logos.png" width={90} height={28}  alt='logo' /> </div>
+          <div className=""> <Image src="/logo.png" width={90} height={28}  alt='logo' /> </div>
           <button
+          ref={btnMenu}
             onClick={HandlingNavMenu}
-            className=" sm:hidden cursor-pointer hover:rotate-90 transition-all"
+            className=" sm:hidden cursor-pointer  transition-all"
           >
             <Image alt="img-navbar" src={"/Ham.png"} width="20" height={"14"} />
           </button>
