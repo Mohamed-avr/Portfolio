@@ -25,7 +25,7 @@ const Navbar = () => {
     <>
       <div className=" z-10 top-0 fixed flex justify-between sm:px-24 px-5 py-4 items-center align-middle text-texts  sm:flex-flow  bg-nav/70 w-full ">
         <div className="flex justify-between sm:w-2/4 w-full  ">
-          <div className=""> <Image src="/logo.png" width={'90px'} height={'28'}  alt='logo' /> </div>
+          <div className=""> <Image src="/logNav.svg" width={'90px'} height={'28'}  alt='logo' /> </div>
           <button
           ref={btnMenu}
             onClick={HandlingNavMenu}
