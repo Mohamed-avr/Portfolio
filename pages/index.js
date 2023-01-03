@@ -77,7 +77,7 @@ export default function Home() {
               </h2>
             </div>
           </div>
-
+      
           <div className=" overflow-hidden relative cursor-pointer sm:mt-40 my-2  ">
             <Image
               src="/tow.jpg"
@@ -110,6 +110,7 @@ export default function Home() {
               </h2>
             </div>
           </div>
+
           <div className=" overflow-hidden relative cursor-pointer sm:mt-2 my-2 h-auto p-0  ">
             <Image
               src="/four.jpg"
@@ -127,6 +128,44 @@ export default function Home() {
               </h2>
             </div>
           </div>
+{/*  additions */}
+             <div className=" overflow-hidden relative cursor-pointer sm:-mt-36 my-2 h-auto p-0  ">
+            <Image
+              src="/four.jpg"
+              className="bg-purple-400  bg-contain "
+              alt="image-featured"
+              width="610"
+              height="650"
+            />{" "}
+            <div className="bg-black/30  w-full text-texts/0  hover:text-texts sm:h-[650px]  h-[98.6%] absolute top-0 left-0 py-0 hover:bg-black/70  flex justify-center items-center text-4xl ">
+              <h2 className="uppercase  hover:text-white ">
+                {" "}
+                <Link href="https://www.behance.net/gallery/126187935/Agency-Hiring-people">
+                  visit now
+                </Link>
+              </h2>
+            </div>
+          </div>
+
+          <div className=" overflow-hidden relative cursor-pointer sm:mt-2 my-2 h-auto p-0  ">
+            <Image
+              src="/four.jpg"
+              className="bg-purple-400  bg-contain "
+              alt="image-featured"
+              width="610"
+              height="650"
+            />{" "}
+            <div className="bg-black/30  w-full text-texts/0  hover:text-texts sm:h-[650px]  h-[98.6%] absolute top-0 left-0 py-0 hover:bg-black/70  flex justify-center items-center text-4xl ">
+              <h2 className="uppercase  hover:text-white ">
+                {" "}
+                <Link href="https://www.behance.net/gallery/126187935/Agency-Hiring-people">
+                  visit now
+                </Link>
+              </h2>
+            </div>
+          </div>
+
+
         </article>
       </section>
       {/* -------------- end of Section One ---------------   */}
