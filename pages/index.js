@@ -57,12 +57,13 @@ export default function Home() {
               width="18"
               height="25"
             />{" "}
-            <h3 className="uppercase ml-2 "> Featured work </h3>{" "}
+            <h3 className="uppercase ml-2 "> UIUX Design </h3>{" "}
           </button>
         </div>
 
 
         <Projects/>
+
 
        
       </section>
