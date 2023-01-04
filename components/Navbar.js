@@ -34,6 +34,7 @@ const Navbar = () => {
             <Image alt="img-navbar" src={"/Ham.png"} width="20" height={"14"} />
           </button>
         </div>
+    
         <div
           ref={LinksRef}
           className=" hidden sm:flex justify-center items-center "
@@ -43,9 +44,9 @@ const Navbar = () => {
             className=" space-x-10 flex justify-center items-center text-lg font-normal "
           >
             <li className="hover:text-white/70" >
-              <Link href="#home">Home </Link>
+              <Link href="/">Home </Link>
             </li>
-            <li  className="hover:text-white/70" >
+            <li className="hover:text-white/70" >
               <Link href="#work">work </Link>
             </li>
             <li className="hover:text-white/70">

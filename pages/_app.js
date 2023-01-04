@@ -6,7 +6,7 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <div className=' font-body bg-body '>
-      <Navbar/>
+    <Navbar/>
     <Layout>
       <Component {...pageProps} />
     </Layout>
