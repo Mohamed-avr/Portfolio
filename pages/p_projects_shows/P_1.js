@@ -17,7 +17,7 @@ const ProjectOne = () => {
                 <div className='bg-slate-200/5 text-texts/95 mt-10 p-4'>
                     <h3 className='font-bold text-lg capitalize '> about </h3>
 
-                    say hi to blabla design !! first what is bla bla design it's a new design for a client helping sick people
+                    say hi to blabla design !! first what is bla bla design its a new design for a client helping sick people
                     it helps doctors and nurses to atchive their goals by helping sick people doctors and nurses to atchive their goals by helping sick people
 
                 </div>
