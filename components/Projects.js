@@ -11,19 +11,19 @@ import Card from './Card';
 
 const Projects = () => {
 
-  const [windowWidth, setWindowWidht] = useState(false , [windowWidth]);
+  const [sizeScreen, setSizeScreen] = useState(false);
   useEffect(() => {
 
     console.log(window.screen.width);
-    console.log('the state is' + windowWidth);
+    console.log('the state is' + sizeScreen);
 
     if (window.screen.width <= 600) {
-      setWindowWidht(true)
+      setSizeScreen(true)
 
     } else {
-      setWindowWidht(false);
+      setSizeScreen(false);
     }
-  });
+  }, [sizeScreen]);
 
   const projectsList = [
     {

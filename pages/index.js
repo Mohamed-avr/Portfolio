@@ -1,11 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import ButtonEmail from "../components/EmailButton";
-import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Resume from "../components/Resume";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
