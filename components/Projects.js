@@ -11,7 +11,7 @@ import Card from './Card';
 
 const Projects = () => {
 
-  const [windowWidth, setWindowWidht] = useState(false);
+  const [windowWidth, setWindowWidht] = useState(false , [windowWidth]);
   useEffect(() => {
 
     console.log(window.screen.width);
