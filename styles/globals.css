@@ -33,3 +33,22 @@ a {
 /*  ----------  */
 
 /*  styles components */
+.swiper {
+  width: 95%;
+  height: 23rem; 
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+
+
