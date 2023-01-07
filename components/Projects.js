@@ -52,29 +52,8 @@ const Projects = () => {
       'dateFinished': '2002-01-01',
       'state': 'real project',
       'link': 'P_3',
-    },
-    {
-
-      'name': 'Project Name',
-      'id': 4,
-      'img': '/four.jpg',
-      'dateFinished': '2002-01-01',
-      'state': 'real project',
-      'link': 'P_4',
-    },
-    {
-
-      'name': 'Project Name',
-      'id': 5,
-      'img': '/four.jpg',
-      'dateFinished': '2002-01-01',
-      'state': 'real project',
-      'link': 'P_5',
-    },
-
-
-
-  ]
+    }
+  ];
 
 
   return (
