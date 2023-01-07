@@ -80,7 +80,7 @@ const Projects = () => {
   return (
     <div className="flex justify-start flex-row mt-4 overflow-hidden ">
       <div className='flex flex-row flex-wrap w-full  '>
-        {windowWidth ?
+        {sizeScreen ?
           <Swiper
             grabCursor={true}
             effect={"cards"}
