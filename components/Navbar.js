@@ -52,6 +52,9 @@ const Navbar = () => {
             <li className="hover:text-white/70">
               <Link href="#contact">contact </Link>
             </li>
+            <li className="hover:text-white/70">
+              <Link href="/Products">products </Link>
+            </li>
           </ul>
         </div>
       </div>
