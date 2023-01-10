@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import ClientsFeedback from "../components/clientsFeedback";
+
 import ButtonEmail from "../components/EmailButton";
 import Projects from "../components/Projects";
 import Resume from "../components/Resume";
