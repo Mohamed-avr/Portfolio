@@ -21,3 +21,12 @@ module.exports = {
   },
   plugins: [],
 }
+
+
+/*  colors: {
+        'nav': '#323232',
+        'body': '#202020',
+        'buttons': '#9D9D9D',
+        'texts': '#cacaca',
+        'pars': '#6D6D6D', 
+        */ 

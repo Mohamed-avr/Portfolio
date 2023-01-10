@@ -106,7 +106,7 @@ export default function Home() {
             clients feedback
           </h2>
 
-          <div className="bg-nav  w-[600px] mt-4 ">
+          <div className=" bg-yellow-400 text-white items-center flex justify-center text-5xl  sm:w-[600px] mt-4  h-80  ">
               feedbacks
           </div>
          
