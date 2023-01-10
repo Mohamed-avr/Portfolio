@@ -6,7 +6,6 @@ const Products = () => {
     const products = [
         { 
             'name': 'product one', 
-            'id':2,
             'price': true ? '$30' : 'free', 
             'image':'/ProductsImages/ProductIm_1.jpg',
             'duplicated':'301', 
@@ -15,10 +14,10 @@ const Products = () => {
         } ,
         { 
             'name': 'product one', 
-               'id':2,
-            'price': true ? '$30' : 'free', 
+            'price': false ? '$30' : 'free', 
             'image':'/ProductsImages/ProductIm_1.jpg',
             'duplicated':'301', 
+            'id':2,
             'link':'https://mostaql.com/portfolio/1153318-%D8%B7%D8%A8%D9%8A%D8%A8%D9%8A'
         }
     ];

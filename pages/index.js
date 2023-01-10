@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import ClientsFeedback from "../components/clientsFeedback";
 import ButtonEmail from "../components/EmailButton";
 import Projects from "../components/Projects";
 import Resume from "../components/Resume";
@@ -98,6 +99,22 @@ export default function Home() {
       </section>
       {/* -------------- end of section tow ---------------   */}
 
+       {/*  section four  */}
+       <section className="mt-20 " id="contact"  >
+        <div className="flex justify-center flex-col items-center ">
+          <h2 className="text-2xl text-texts uppercase  text-center font-bold ">
+            clients feedback
+          </h2>
+
+          <div className="bg-nav  w-[600px] mt-4 ">
+              <ClientsFeedback/>
+          </div>
+         
+
+        </div>
+      </section>
+      {/*  end of section four  */}
+
       {/*  section three */}
       <section className="mt-20 " id="contact"  >
         <div className="flex justify-center flex-col items-center ">
@@ -113,6 +130,8 @@ export default function Home() {
         </div>
       </section>
       {/*  end od section three */}
+
+     
     </div>
   );
 }
