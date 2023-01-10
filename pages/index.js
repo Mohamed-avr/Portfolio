@@ -107,7 +107,7 @@ export default function Home() {
           </h2>
 
           <div className="bg-nav  w-[600px] mt-4 ">
-              <ClientsFeedback/>
+              feedbacks
           </div>
          
 
