@@ -126,6 +126,7 @@ export default function Home() {
             available for freelance work
           </p>
 
+
       <ButtonEmail/>
         </div>
       </section>

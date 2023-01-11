@@ -4,21 +4,21 @@ import Product from '../components/Product';
 const Products = () => {
 
     const products = [
+        // { 
+        //     'name': 'product one', 
+        //     'price': true ? '$30' : 'free', 
+        //     'image':'/ProductsImages/ProductIm_1.jpg',
+        //     'duplicated':'301', 
+        //     'id':1,
+        //     'link':'https://mostaql.com/portfolio/1153318-%D8%B7%D8%A8%D9%8A%D8%A8%D9%8A'
+        // } ,
         { 
-            'name': 'product one', 
-            'price': true ? '$30' : 'free', 
-            'image':'/ProductsImages/ProductIm_1.jpg',
-            'duplicated':'301', 
-            'id':1,
-            'link':'https://mostaql.com/portfolio/1153318-%D8%B7%D8%A8%D9%8A%D8%A8%D9%8A'
-        } ,
-        { 
-            'name': 'product one', 
+            'name': 'UI Hero Sections', 
             'price': false ? '$30' : 'free', 
-            'image':'/ProductsImages/ProductIm_1.jpg',
+            'image':'/ProductsImages/ProductIm_2.jpg',
             'duplicated':'301', 
             'id':2,
-            'link':'https://mostaql.com/portfolio/1153318-%D8%B7%D8%A8%D9%8A%D8%A8%D9%8A'
+            'link':'https://www.figma.com/community/file/1194812296924575730'
         }
     ];
 
